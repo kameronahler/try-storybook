@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './button.css'
+import './button.scss'
 
 export const BUTTON_TYPES = {
   default: 'default',
