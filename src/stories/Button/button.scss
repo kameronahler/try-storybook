@@ -1,5 +1,5 @@
 .button {
-  border-radius: 3em;
+  border-radius: 999em;
   border: 0;
   cursor: pointer;
   display: inline-block;
@@ -7,13 +7,15 @@
   font-weight: 700;
   line-height: 1;
   padding: 1.25rem 3rem;
-}
-.button--primary {
-  background-color: #1ea7fd;
-  color: white;
-}
-.button--secondary {
-  background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
-  color: #333;
+
+  &--primary {
+    background-color: #1ea7fd;
+    color: white;
+  }
+
+  &--secondary {
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+    color: #333;
+  }
 }
